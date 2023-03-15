@@ -1,0 +1,62 @@
+<!DOCTYPE html><!-- このファイルがHTMLであることを宣言 -->
+<html lang="ja"><!-- 言語は日本語に設定 -->
+
+<head>
+    <meta charset="utf-8">
+    <link rel=stylesheet href="../static/css/style.css"><!-- cssファイルの読み込み -->
+    <link rel="icon" href="../static/images/favicon.ico"><!-- ファビコンの設定 -->
+    <title>台形面積ツール</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="">台形面積ツール</a>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>面積を求めたい台形の情報を入力してください</h1>
+            <form action="">
+                <table>
+                    <#####(4)#####>
+                        <#####(5)#####><label>台形の上底は？</label></#####(5)#####>
+                        <#####(6)#####><input type="number" name="top" class="input_field" required="required" placeholder="上底">cm</#####(6)#####>
+                    </#####(4)#####>
+                    <#####(4)#####>
+                        <#####(5)#####><label>台形の下底は？</label></#####(5)#####>
+                        <#####(6)#####><input type="number" name="bottom" class="input_field" required="required" placeholder="下底">cm</#####(6)#####>
+                    </#####(4)#####>
+                    <#####(4)#####>
+                        <#####(5)#####><label>台形の高さは？</label></#####(5)#####>
+                        <#####(6)#####><input type="number" name="height" class="input_field" required="required" placeholder="高さ">cm</#####(6)#####>
+                    </#####(4)#####>
+                </table>
+                <div id="calc_btn">
+                    <input type="submit" value='計算する'>
+                </div>
+            </form>
+        </div>
+
+        <div class="box">
+            <div class="box_title">台形の面積は...</div>
+            <h3 id="result">自然数を入力してください</h3>
+            <h5> ※次回のゼミでこの部分の処理方法を学びます </h5>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_logo">©︎ GeekSalon_AI_html_cssゼミ</div>
+    </footer>
+</body>
+</html>
