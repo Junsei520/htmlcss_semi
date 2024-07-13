@@ -29,18 +29,18 @@
             <h1>面積を求めたい台形の情報を入力してください</h1>
             <form action="">
                 <table>
-                    <#####(4)#####>
-                        <#####(5)#####><label>台形の上底は？</label></#####(5)#####>
-                        <#####(6)#####><input type="number" name="top" class="input_field" required="required" placeholder="上底">cm</#####(6)#####>
-                    </#####(4)#####>
-                    <#####(4)#####>
-                        <#####(5)#####><label>台形の下底は？</label></#####(5)#####>
-                        <#####(6)#####><input type="number" name="bottom" class="input_field" required="required" placeholder="下底">cm</#####(6)#####>
-                    </#####(4)#####>
-                    <#####(4)#####>
-                        <#####(5)#####><label>台形の高さは？</label></#####(5)#####>
-                        <#####(6)#####><input type="number" name="height" class="input_field" required="required" placeholder="高さ">cm</#####(6)#####>
-                    </#####(4)#####>
+                    <tr>
+                        <th><label>台形の上底は？</label></th>
+                        <td><input type="number" name="top" class="input_field" required="required" placeholder="上底">cm</td>
+                    </tr>
+                    <tr>
+                        <th><label>台形の下底は？</label></th>
+                        <td><input type="number" name="bottom" class="input_field" required="required" placeholder="下底">cm</td>
+                    </tr>
+                    <tr>
+                        <th><label>台形の高さは？</label></th>
+                        <td><input type="number" name="height" class="input_field" required="required" placeholder="高さ">cm</td>
+                    </tr>
                 </table>
                 <div id="calc_btn">
                     <input type="submit" value='計算する'>
